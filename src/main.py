@@ -103,10 +103,15 @@ def find_empty(grid): # finds the next empty space which is defined by 0 in our 
 
 read_CSV_File_Into_Array()
 
+print("\n Your unsolved sudoku is:\n")
+print_board(inputNumbers)
 
 solve(inputNumbers)
 
+print("\n Here is your solved puzzle:\n")
 print_board(inputNumbers)
+
+input("\n\nPress enter to exit")
 
 
 
